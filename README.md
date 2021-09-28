@@ -40,20 +40,19 @@ GET
 
 Hello, dear user. If you want to use this app, you have to stick to the interface.
 for sending message:
-##{   
-##"name": "Bob",
-##"addressed": "John",
-##"message": "Hi John!"
-##}
 
-for getting all messages for the user:
-##{   
-##"name": "Bob",
-##}
+{  
+"name": "Bob",  
+"addressed": "John",  
+"message": "Hi John!"  
+}
 
-Available users:
-John
-Bob
-Bill
+for getting all messages for the user:   
+{"name": "Bob"}
+
+Available users:  
+John  
+Bob  
+Bill  
 
 Enjoy it ;)
